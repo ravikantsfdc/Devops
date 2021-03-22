@@ -1,6 +1,6 @@
 public with sharing class Calculator {
     public Calculator() {
-
+        System.debug('Apex Class');
     }
 
     public static Integer add(Integer a, Integer b) {
