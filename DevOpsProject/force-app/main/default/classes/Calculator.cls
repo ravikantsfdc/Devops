@@ -3,11 +3,15 @@ public with sharing class Calculator {
         System.debug('Apex Class');
     }
 
-    public static Integer add(Integer a, Integer b) {
+    public Integer add(Integer a, Integer b) {
         return a+b;
     }
 
-    public static Integer sub(Integer b, Integer a) {
+    public Integer sub(Integer b, Integer a) {
         return b-a;
+    }
+
+    public Integer multiply(Integer a, Integer b) {
+        return a*b;
     }
 }
